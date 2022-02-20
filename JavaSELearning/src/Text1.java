@@ -8,10 +8,32 @@
 import java.util.Scanner;
 
 public class Text1 {
+    //一个数字的每一位之和
+    public static int fac2(int n) {
+        if(n<10){
+            return n;
+        }else {
+            return n%10+fac2(n/10);
+        }
+
+    }
+    //打印1-9递归
+    public static void fac(int n) {
+       if(n==1){
+           System.out.println(n);
+       }else {
+           fac(n - 1);
+           System.out.println(n);
+       }
+    }
     //返回二进制的1的个数
     //优化
+
     public static void main(String[] args) {
-        int n=7;
+        int ret=fac2(234);
+        System.out.println(ret);
+       // fac(9);
+    /*    int n=7;
         int count =0;
         while(n!=0){
             if((n&1)!=0){
@@ -19,7 +41,7 @@ public class Text1 {
             }
             n>>>=1;
         }
-        System.out.println(count);
+        System.out.println(count);*/
     }
     /*public static void main(String[] args) {
         int n=10;

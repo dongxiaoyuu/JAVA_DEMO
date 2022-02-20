@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="" />
+    <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Text2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSELearning/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSELearning/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Text1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Text2">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="JavaSELearning" />
@@ -39,8 +44,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Text1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Text1" />
+      <module name="JavaSELearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Text2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Text2" />
+      <module name="JavaSELearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Text2" />
+        <item itemvalue="Application.Text1" />
         <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
