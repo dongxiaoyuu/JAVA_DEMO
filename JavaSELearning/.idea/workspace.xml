@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array_exm/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linklist/DoubleLinklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linklist/SingleLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/book/BookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/AddOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/BorrowOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/DelOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/DisplayOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/ExitOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/FindOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/IOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/operation/ReturnOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/user/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/user/NormalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projection_library/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Text4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/CardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/Text5_ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/Text5_Yang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Text3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linklist/DoubleLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linklist/DoubleLinklist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.SingleLinkList">
+  <component name="RunManager" selected="Application.DoubleLinklist">
     <configuration name="CardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayList.CardDemo" />
       <module name="JavaSELearning" />
@@ -124,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleLinkList" />
         <item itemvalue="Application.DoubleLinklist" />
+        <item itemvalue="Application.SingleLinkList" />
         <item itemvalue="Application.MyArray" />
         <item itemvalue="Application.CardDemo" />
         <item itemvalue="Application.Text5_ArrayList" />
@@ -153,5 +131,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaSELearning$DoubleLinklist.ic" NAME="DoubleLinklist Coverage Results" MODIFIED="1647429256896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Linklist.*</FILTER>
+    </SUITE>
   </component>
 </project>

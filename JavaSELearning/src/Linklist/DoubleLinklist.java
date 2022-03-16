@@ -23,7 +23,15 @@ public class DoubleLinklist {
     public ListNode head;
     public ListNode last;
 
-
+    public int mySize(){
+        int size=0;
+        ListNode cur=this.head;
+        while (cur!=null) {
+            size++;
+            cur=cur.next;
+        }
+        return size;
+    }
     public boolean contains(int key){
         ListNode cur=this.head;
         while (cur!=null){
@@ -65,7 +73,7 @@ public class DoubleLinklist {
             last=node;
         }
     }
-    //
+    //TODO按点插入
     public void addIndex(int index,int data){
 
         ListNode cur=this.head;
@@ -78,10 +86,76 @@ public class DoubleLinklist {
 
 
     }
+
+    //删除key
+    public void remove(int key){
+        ListNode cur=this.head;
+       while (cur!=null){
+           if(cur.val==key){
+               if(cur==head){
+                   head=head.next;
+                   if(head!=null) {//判断是不是只有一个节点
+                       head.prev = null;
+                   }
+               }else{
+                   cur.prev.next=cur.next;
+                   if(cur.next!=null) {
+                       cur.next.prev = cur.prev;
+                   }else{
+                       last=last.prev;
+                   }
+               }
+               return;//删除结束
+           }else{
+               cur=cur.next;
+
+           }
+       }
+    }
+    //删除所有key
+    public void removeAll(int key){
+        ListNode cur=this.head;
+        while (cur!=null){
+            if(cur.val==key){
+                if(cur==head){
+                    head=head.next;
+                    if(head!=null) {//判断是不是只有一个节点
+                        head.prev = null;
+                    }
+                }else{
+                    cur.prev.next=cur.next;
+                    if(cur.next!=null) {
+                        cur.next.prev = cur.prev;
+                    }else{
+                        last=last.prev;
+                    }
+                }
+
+            }else{
+                cur=cur.next;
+
+            }
+        }
+    }
+    //clear all
+    public void clear(){
+        ListNode cur=head;
+        while (cur!=null){
+            ListNode curNext=cur.next;
+            cur.prev=null;
+            cur.next=null;
+            cur=curNext;
+        }
+        head=null;
+        last=null;
+    }
+
     public static void main(String[] args) {
         DoubleLinklist mylink=new DoubleLinklist();
         mylink.addFirst(1);
-        mylink.addFirst(2);
+        mylink.addLast(2);
+        mylink.addLast(3);
         mylink.display();
+
     }
 }
