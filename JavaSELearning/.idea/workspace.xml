@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stack_exm/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linklist/DoubleLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linklist/DoubleLinklist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.DoubleLinklist">
+  <component name="RunManager" selected="Application.MyStack">
     <configuration name="CardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayList.CardDemo" />
       <module name="JavaSELearning" />
@@ -80,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack_exm.MyStack" />
+      <module name="JavaSELearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack_exm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Linklist.SingleLinkList" />
       <module name="JavaSELearning" />
@@ -93,20 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Text5_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayList.Text5_ArrayList" />
-      <module name="JavaSELearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.DoubleLinklist" />
         <item itemvalue="Application.SingleLinkList" />
         <item itemvalue="Application.MyArray" />
         <item itemvalue="Application.CardDemo" />
-        <item itemvalue="Application.Text5_ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +125,19 @@
       <option name="presentableId" value="Default" />
       <updated>1642992824262</updated>
     </task>
+    <task id="LOCAL-00001" summary="UPDATE">
+      <created>1647430782825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647430782825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
