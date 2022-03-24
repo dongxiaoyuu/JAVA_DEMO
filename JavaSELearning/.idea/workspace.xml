@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="" />
+    <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="UPDATE">
+      <change afterPath="$PROJECT_DIR$/src/Text5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackAndqueue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackAndqueue/NewStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TreeBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSELearning/stack_exm/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_exm/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackAndqueue/MyStack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,14 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.MyStack">
-    <configuration name="CardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayList.CardDemo" />
-      <module name="JavaSELearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeBin">
     <configuration name="DoubleLinklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Linklist.DoubleLinklist" />
       <module name="JavaSELearning" />
@@ -64,25 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_exm.MyArray" />
-      <module name="JavaSELearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array_exm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_exm.MyStack" />
+      <option name="MAIN_CLASS_NAME" value="stackAndqueue.MyStack" />
       <module name="JavaSELearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack_exm.*" />
+          <option name="PATTERN" value="stackAndqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +92,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Text6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Text6" />
+      <module name="JavaSELearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeBin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.TreeBin" />
+      <module name="JavaSELearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeBin" />
+        <item itemvalue="Application.Text6" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.DoubleLinklist" />
         <item itemvalue="Application.SingleLinkList" />
-        <item itemvalue="Application.MyArray" />
-        <item itemvalue="Application.CardDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +152,11 @@
           <url>file://$PROJECT_DIR$/src/Linklist/SingleLinkList.java</url>
           <line>40</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/TreeBin.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

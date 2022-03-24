@@ -1,4 +1,4 @@
-package stack_exm;
+package stackAndqueue;
 
 import java.util.Stack;
 
