@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d91ece-64fc-4b58-beeb-582f3eb1ad36" name="Changes" comment="UPDATE">
-      <change afterPath="$PROJECT_DIR$/src/Text5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Text6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndqueue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackAndqueue/NewStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comp_text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MySort/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapAndSet/MyHashBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapAndSet/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapAndSet/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSELearning/stack_exm/MyStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_exm/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackAndqueue/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeBin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -52,13 +54,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.TreeBin">
-    <configuration name="DoubleLinklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linklist.DoubleLinklist" />
+  <component name="RunManager" selected="Application.SearchTree">
+    <configuration name="Comp_text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comp_text" />
+      <module name="JavaSELearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.SearchTree" />
       <module name="JavaSELearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linklist.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackAndqueue.MyStack" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MySort.Sort" />
       <module name="JavaSELearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackAndqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linklist.SingleLinkList" />
-      <module name="JavaSELearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Linklist.*" />
+          <option name="PATTERN" value="MySort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchTree" />
+        <item itemvalue="Application.Comp_text" />
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.TreeBin" />
         <item itemvalue="Application.Text6" />
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.DoubleLinklist" />
-        <item itemvalue="Application.SingleLinkList" />
       </list>
     </recent_temporary>
   </component>
@@ -153,11 +149,6 @@
           <line>40</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tree/TreeBin.java</url>
-          <line>127</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -165,5 +156,6 @@
     <SUITE FILE_PATH="coverage/JavaSELearning$DoubleLinklist.ic" NAME="DoubleLinklist Coverage Results" MODIFIED="1647429256896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Linklist.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/JavaSELearning$Comp_text.ic" NAME="Comp_text Coverage Results" MODIFIED="1648473368980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

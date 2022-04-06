@@ -123,7 +123,7 @@ public class TreeBin {
     }
 
     //检测元素值为value的是否存在
-    TreeNode find(TreeNode root,char val){
+/*    TreeNode find(TreeNode root,char val){
 
         if(root==null){
             return null;
@@ -138,7 +138,7 @@ public class TreeBin {
         if(ret2!=null) return ret2;
         return null;
 
-    }
+    }*/
 
     //判断一个树是否是完全二叉树
     public boolean isComplete(TreeNode root){
@@ -213,8 +213,8 @@ public class TreeBin {
         int K =BT.getKLeaf(k,a);
         System.out.println("第"+k+"层有"+K+"个节点");
 
-        TreeNode node=BT.find(a,'C');
-        System.out.println(node.val);
+        //TreeNode node=BT.find(a,'C');
+      //  System.out.println(node.val);
 
 
     }
