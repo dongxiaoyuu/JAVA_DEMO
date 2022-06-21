@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <!-- 左边 -->
+        <div class="nav-left">
+            <img src="img/logo2.jpg" alt="">
+            <span>我的博客系统</span>
+        </div>
+        <!-- 右边 -->
+        <div class="nav-right">
+            <a href="blog_list.html">主页</a>
+            <a href="blog_edit.html">写博客</a>
+            <a href="logout">注销</a>
+        </div>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左边：用户信息 -->
+        <div class="container-left">
+            <div class="card">
+                <!-- 头像 -->
+                <img id="head" src="img/doge.jpg">
+                <!-- 用户名称 -->
+                <h3 id="nickname">比特郑老师</h3>
+                <a id="github" href="http://www.github.com">github地址</a>
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右边：博客列表 -->
+        <div class="container-right">
+            <!-- 一篇文章 -->
+            <div class="row">
+                <div class="title">遍历的每一篇文章数据的标题</div>
+                <div class="date">日期</div>
+                <div class="desc">描述</div>
+                <div class="to-detail">
+                    <a href="blog_content.html">查看全文 >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/util.js"></script>
+<script>
+//获取用户信息
+    //需要设置的用户信息：先获取dom元素
+    var nickname=document.querySelector("#nickname");
+    var head=document.querySelector("#head");
+    var github=document.querySelector("#github");
+    ajax({
+        method:"get",
+        url:"getUserInfo",
+        callback:function(status,responseText){
+                //
+                var json=handleResponse(status,responseText);
+                if(!json)
+                return;
+                //解析响应正文
+                //昵称是设置标签内容
+                if(json.nickname){
+                    nickname.innerHTML=json.nickname;
+                }
+                if(json.head){
+                    head.src=json.head;
+                }
+                if(json.github){
+                    github.href=json.github;
+                }
+                // var nickname=json.nickname;
+                // var github=json.github;
+                // var head=json.head;
+        }
+    });
+    //获取文章列表信息
+    ajax({
+        method:"get",
+        url:"blog/list",
+        callback:function(status,responseText){
+            var json=handleResponse(status,responseText);
+            if(!json)
+            return;
+            //处理响应--解析响应正文Json，遍历文章列表
+            //获取文章列表的父容器
+            var blogListDiv=document.querySelector(".container-right");
+            var str='';
+            for(var i=0;i<json.length;i++){
+                var article =json[i];
+                var desc=article.content.length>50?article.content.substring(0,50):article.content;
+                str+=`
+                <div class="row">
+                    <div class="title">${article.title}</div>
+                    <div class="date">${article.createTime}</div>
+                    <div class="desc">${desc}</div>
+                    <div class="to-detail">
+                        <a href="blog_content.html?id=${article.id}">查看全文 >></a>
+                    </div>
+                </div>
+               `
+                
+            }
+           blogListDiv.innerHTML=str; 
+        }
+
+    
+    });
+</script>
+</html>
